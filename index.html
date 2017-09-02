@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Coffee Notificator</title>
+	</head>
+	<body>
+		<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"></script>
+		<script>
+			var OneSignal = window.OneSignal || [];
+			OneSignal.push(["init", {
+				appId: "3ae8e10b-da3c-4d21-83d2-99d865901b91",
+				autoRegister: true, /* Set to true to automatically prompt visitors */
+				httpPermissionRequest: {
+					enable: true
+				},
+				notifyButton: {
+					enable: true /* Set to false to hide */
+				}
+			}]);
+		</script>
+	</body>
+</html>
