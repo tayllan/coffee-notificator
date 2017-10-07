@@ -1,6 +1,6 @@
 {
-  "name": "Coffee Notificator",
-  "short_name": "CoffeeNotificator",
+  "name": "Coffee Notifier",
+  "short_name": "CoffeeNotifier",
   "start_url": "/",
   "display": "standalone",
   "gcm_sender_id": "482941778795",
